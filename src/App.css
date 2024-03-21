@@ -1,0 +1,187 @@
+.App {
+  text-align: left;
+}
+
+.popup-Container {
+
+  border: 2px solid grey;
+  
+  width: 25%; 
+  margin-top: 0px;
+  height: 100vh; 
+  position: fixed; 
+  top: 0; 
+  right: 0; 
+  background-color: white; 
+  overflow-y: auto; 
+  display: flex;
+  flex-direction: column;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+
+.footerContainer {
+  /* margin-top: 25%; */
+  margin-top: auto;
+  height: 80px;
+  background-color: rgb(237, 237, 237);
+  display: flex; /* Use flexbox */
+  align-items: center; /* Vertically center the items */
+  justify-content: flex-start; /* Align items to the left */
+}
+.addedSchemas {
+  
+  border: 2px solid blue;
+  padding: 10px;
+}
+
+.schemaItem {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.schemaLabel {
+  flex-grow: 1;
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+
+.dropdownArrow {
+  width: 10px;
+  height: 10px;
+  border-top: 2px solid black;
+  border-right: 2px solid black;
+  transform: rotate(130deg);
+  margin-right: 20px;
+}
+
+.redDot {
+  width: 10px;
+  height: 10px;
+  background-color: rgb(24, 195, 81);
+  border-radius: 50%;
+}
+
+.greyDot {
+  width: 10px;
+  height: 10px;
+  background-color: rgb(198, 195, 195);
+  border-radius: 50%;
+}
+
+.menuIcon {
+  margin-left: auto;
+  cursor: pointer;
+  background-color: rgb(231, 247, 252);
+  border: 1.5px solid rgb(196, 222, 236);
+  width: 30px;
+  height: 28px;
+  margin-left: 5px;
+}
+
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center; 
+  background-color: rgb(21, 135, 135);
+  color: white;
+}
+
+
+.header text {
+  display: flex;
+  align-items: center;
+  margin-left: 25px;
+  font-weight: 100;
+
+
+}
+
+
+.header .icon {
+  display: flex;
+  align-items: center;
+font-size: 24px; 
+font-weight: 800;
+}
+
+.contentht{
+  height: 65%;
+  display: flex;
+  flex-direction: column;
+  padding: 7px;
+}
+.btnnewscheme {
+  width:115px;
+  color:rgb(32, 235, 235);
+  text-align: left;
+  border: none;
+  background-color: white;
+  margin-top: 10px;
+  padding-bottom: 2px; 
+  border-bottom: 2px solid rgb(34, 208, 208); 
+  font-size: 12px;
+}
+.user-status-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 5px;
+}
+
+.user-status {
+  display: flex;
+  align-items: center;
+  margin-right: 10px; /* Adjust margin as needed */
+}
+
+.red-dot {
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  border-radius: 50%;
+  margin-right: 5px; /* Adjust margin as needed */
+}
+.green-dot {
+  width: 8px;
+  height: 8px;
+  background-color: rgb(27, 123, 21);
+  border-radius: 50%;
+  margin-right: 5px; /* Adjust margin as needed */
+}
+
+.user-label {
+  font-weight:500;
+  font-size: 12px;
+}
+.btn1{
+  margin-left: 5px;
+  height: 30px;
+  background-color: rgb(55, 187, 185);
+  color: white;
+  border-style: none;
+  padding: 5px;
+  border-radius: 5px;
+}
+.btn2{
+  margin-left: 5px;
+  height: 30px;
+  background-color: rgb(255, 255, 255);
+  color: tomato;
+  border-style: none;
+  padding: 5px;
+  border-radius: 5px;
+}
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 75%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+  z-index: 999; /* Ensure it appears above other content */
+}
+
+
